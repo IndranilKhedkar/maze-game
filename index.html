@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css" />
+    <title>Maze</title>
+</head>
+
+<body>
+
+    <div id="main">
+        <form id="gameForm" onsubmit="handleSubmit()">
+            <input type="text" placeholder="Enter maze size" id="txtMazeSize" />
+            <button id="btnStartGame" type="submit">Start Game</button>
+        </form>
+        <div id="mazeContainer">
+            <canvas id="canvas"></canvas>
+        </div>
+    </div>
+
+    <script src="./mazeGenerator.js"></script>
+    <script src="./main.js"></script>
+
+</body>
+
+</html>

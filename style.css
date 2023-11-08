@@ -1,0 +1,20 @@
+body {
+    text-align: center;
+}
+
+#gameForm {
+    padding-bottom: 20px;
+}
+
+#txtMazeSize {
+    padding: 9px;
+    border-radius: 9px;
+}
+
+#btnStartGame {
+    padding: 9px;
+    font-size: 15px;
+    font-weight: 600;
+    background-color: slateblue;
+    border-radius: 9px;
+}
